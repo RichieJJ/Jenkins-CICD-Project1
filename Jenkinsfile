@@ -101,4 +101,4 @@ pipeline {
   }
 }
 
-//slackSend channel: '#mbandi-cloudformation-cicd', message: "Please find the pipeline status of the following ${env.JOB_NAME ${env.BUILD_NUMBER} ${env.BUILD_URL}"
+//slackSend channel: '#richie-jenkins-cicd-pipeline-alerts', message: "Please find the pipeline status of the following ${env.JOB_NAME ${env.BUILD_NUMBER} ${env.BUILD_URL}"
